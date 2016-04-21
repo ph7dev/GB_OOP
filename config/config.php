@@ -19,6 +19,9 @@ define('DS', DIRECTORY_SEPARATOR);
  */
 define('ROOT',dirname(dirname(__FILE__)));
 
-Config::set('test',"Yahoooo");
 
+
+
+Config::set('test',"Yahoooo");
+Config::set('login', 'bz4work');
 
