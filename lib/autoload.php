@@ -21,7 +21,10 @@ function __autoload ($class_name){
     if (file_exists($classes)){
        require_once "$classes";
     }else{
-        return "Файл $class_name не существует.";
+//        return "Файл $class_name не существует.";
+//        throw new Exception ("Class not found!");
+        $lib = ROOT.DS."lib".DS.$class_name.".php";
+        require_once "$lib";
     }
 
 }
