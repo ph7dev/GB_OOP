@@ -9,9 +9,13 @@
 
 class File implements iFile
 {
-    public function displayComment()
+    public function displayComment($handle)
     {
         // TODO: Implement displayComment() method.
+
+        $data = file_get_contents($handle);
+        $arr = explode('|', $data);
+        return $arr;
     }
 
     public function addComment($handle, $text)

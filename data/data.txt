@@ -1,26 +1,3 @@
-author: 1
-text: test
-author: 1
-text: test
-author: 1
-text: test
-author: Test
-text: test
-author: rrrr
-text: rrrr
-Test:test
-Test:ttttt::1461230428
-Test:test:::1:1461230475
-bbbbb:bbbb::1461230494
-Test:test::1461230815
-Test:test::1461230870
-reerre:reerer::1461230902
-tessss:`sdfsdsd::1461230921
-Rocket:rr::1461230953
-eer:erer::1461230969
-w:ww::1461231115
-w:ww:1461231170
-dssf:sddss:1461231173
-dssdsd:sdsdsd:1461231204
-ewwe:wewe:1461231289
-c bcbn:ddd:1461231350
+|slava|test|1461232998|
+|Rocket|eee|1461233008|
+|ttt|tttt|1461233126|

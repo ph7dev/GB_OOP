@@ -13,7 +13,7 @@ if (!empty($_POST['comment'])){
 
     $handle = Config::get("dataFile");
 
-    $data = $_POST['name'].":".$_POST['comment'].":".time()."\n";
+    $data = "|".$_POST['name']."|".$_POST['comment']."|".time()."|\n";
 
     $writeComment = new File();
 

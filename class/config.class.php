@@ -11,7 +11,7 @@ class Config
     /**
      * @var array
      */
-    private static $_settings = array();
+    protected static $_settings = array();
 
     /**
      * @param $key

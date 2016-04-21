@@ -12,7 +12,7 @@ interface iFile
      * вывод коментов на экран
      * @return mixed
      */
-    function displayComment();
+    function displayComment($handle);
 
     /**
      * добавление коментов в файл

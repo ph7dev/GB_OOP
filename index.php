@@ -9,8 +9,8 @@ error_reporting(-1);
 header ('Content-type: text/html; charset=utf-8');
 
 require_once "./lib/autoload.php";
-
 require_once "saveComment.php";
+
 
 ?>
 
@@ -23,6 +23,19 @@ require_once "saveComment.php";
 
 <?php
 
-$res = new Result();
+//$res = new Result();
+//echo $res->get("done");
+///////////////////
 
-echo $res->get("done");
+
+//Вывод файла с коментами
+/*foreach ($data as $row) {
+    echo $row."<br>";
+}*/
+require_once "display.php";
+
+//foreach ($arr as $row) {
+//    echo $row."<br>";
+//}
+
+    echo "<pre>"; print_r($arr); echo "</pre>";
